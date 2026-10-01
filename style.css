@@ -888,3 +888,44 @@ body.dark-mode .floating-card small {
     background: #0f0f0f;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fix call buttons on mobile */
+.hero-actions {
+  position: relative;
+  z-index: 10;
+}
+
+.hero-actions .btn {
+  position: relative;
+  z-index: 11;
+  pointer-events: auto;
+  touch-action: manipulation;
+}
+
+.service-cta {
+  position: relative;
+  z-index: 10;
+}
+
+.service-cta a {
+  position: relative;
+  z-index: 11;
+  pointer-events: auto;
+  touch-action: manipulation;
+}
